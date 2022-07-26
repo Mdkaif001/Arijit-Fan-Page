@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sparkly</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu_side">
+      <h1>Playlist</h1>
+      <div class="playlist">
+        <h4 class="active">
+          <span></span><i class="fa-solid fa-music"></i>Playlist
+        </h4>
+        <h4><span></span><i class="fa-solid fa-music"></i>Last Listing</h4>
+        <h4><span></span><i class="fa-solid fa-music"></i>Recommended</h4>
+      </div>
+      <div class="menu_song">
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpg" alt="Alan" />
+          <h5>
+            <div class="flex">
+              On My Way
+              <div class="subtitle">Alan Walker</div>
+            </div>
+            <i class="bi playList bi-play-circle-fill" id="1"></i>
+          </h5>
+          <!-- <i class="fa-solid playList fa-circle-play" id="1"></i> -->
+          
+        </li>
+        <li class="songItem">
+          <span>02</span>
+          <img src="https://blog.kakaocdn.net/dn/c8HkV9/btqK71HhvYD/b5WSnJUMlhadg4mFQTcQG1/img.jpg" alt="Arijit singh" />
+          <h5>
+            <div class="flex">
+              On My Way
+              <div class="subtitle">Alan Walker</div>
+            </div>
+            <i class="bi playList bi-play-circle-fill" id="2"></i>
+          </h5>
+        </li>
+        <li class="songItem">
+          <span>03</span>
+          <img src="https://blog.kakaocdn.net/dn/c8HkV9/btqK71HhvYD/b5WSnJUMlhadg4mFQTcQG1/img.jpg" alt="Arijit singh" />
+          <h5>
+            <div class="flex">
+              On My Way
+              <div class="subtitle">Alan Walker</div>
+            </div>
+            <i class="bi playList bi-play-circle-fill" id="3"></i>
+          </h5>
+        </li>
+        <li class="songItem">
+          <span>04</span>
+          <img src="https://blog.kakaocdn.net/dn/c8HkV9/btqK71HhvYD/b5WSnJUMlhadg4mFQTcQG1/img.jpg" alt="Arijit singh" />
+          <h5>
+            <div class="flex">
+              On My Way
+              <div class="subtitle">Alan Walker</div>
+            </div>
+            <i class="bi playList bi-play-circle-fill" id="4"></i>
+          </h5>
+        </li>
+        <li class="songItem">
+          <span>05</span>
+          <img src="https://blog.kakaocdn.net/dn/c8HkV9/btqK71HhvYD/b5WSnJUMlhadg4mFQTcQG1/img.jpg" alt="Arijit singh" />
+          <h5>
+            <div class="flex">
+              On My Way
+              <div class="subtitle">Alan Walker</div>
+            </div>
+            <i class="bi playList bi-play-circle-fill" id="5"></i>
+          </h5>
+        </li>
+        <li class="songItem">
+          <span>06</span>
+          <img src="https://blog.kakaocdn.net/dn/c8HkV9/btqK71HhvYD/b5WSnJUMlhadg4mFQTcQG1/img.jpg" alt="Arijit singh" />
+          <h5>
+            <div class="flex">
+              On My Way
+              <div class="subtitle">Alan Walker</div>
+            </div>
+            <i class="bi playList bi-play-circle-fill" id="6"></i>
+          </h5>
+        </li>
+      </div>
+    </div>
+    <div class="song_side">
+      <nav>
+        <ul>
+          <li>Discover <span></span></li>
+          <li>My Library</li>
+          <li>Radio</li>
+        </ul>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Music..." name="" id="" />
+        </div>
+        <div class="user">
+          <img src="kaif.jpg" alt="User" title="Kaif Coder" />
+        </div>
+      </nav>
+      <div class="content">
+        <h1>Arijit Singh</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          minima hic <br />
+          odit, qui optio, mollitia esse voluptatibus aspernatur beatae nihil,
+          sit illo porro!
+        </p>
+        <div class="buttons">
+          <button>Play</button>
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="popular_song">
+        <div class="h4">
+          <h4>Popular Song</h4>
+          <div class="btn_s">
+            <i id="leftScroll" class="bi bi-arrow-left" ></i>
+            <i id="rightScroll" class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+        <div class="inline">
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/7.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="7"></i>
+              </div>
+              <h5 class="id">
+                Phir bhe tum ko chaahuga <br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/8.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="8"></i>
+              </div>
+              <h5>
+                 Aabaad Barbaad<br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/9.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="9"></i>
+              </div>
+              <h5>
+                Raabat<br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/10.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="10"></i>
+              </div>
+              <h5>
+                Tadpati Hai Teri Baatein   <br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/11.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="11"></i>
+              </div>
+              <h5>
+                Tose Naina<br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/12.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="12"></i>
+              </div>
+              <h5>
+                Tu Har Lamha<br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/13.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="13"></i>
+              </div>
+              <h5>
+                Zindagi song <br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/14.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="14"></i>
+              </div>
+              <h5>
+                Aaj Phir <br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+          <div class="pop_song">
+            <li class="song_item">
+              <div class="img_play">
+                <img src="img/15.jpg" alt="Alan" />
+                <i class="bi playList bi-play-circle-fill" id="15"></i>
+              </div>
+              <h5>
+                Judaa<br />
+                <div class="subtitle">Arijit singh</div>
+              </h5>
+            </li>
+          </div>
+         
+        </div>
+      </div>
+      <div class="popular_artists">
+        <div class="h4">
+          <h4>Popular Artists</h4>
+          <div class="btn_s">
+            <i id="leftScrolls" class="bi bi-arrow-left" ></i>
+            <i id="rightScrolls" class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+        <div class="item">
+          <li>
+            <img src="darhan.jpg" alt="image" title="Darshan Raval" />
+          </li>
+          <li>
+            <img src="https://cutewallpaper.org/23/atif-aslam-wallpaper-download/1625120834.jpg" alt="image"
+              title="Atif Aslam" />
+          </li>
+          <li>
+            <img src="https://wallpaperaccess.com/full/2588180.jpg" alt="image" title="Armaan Malik" />
+          </li>
+          <li>
+            <img src="https://a10.gaanacdn.com/gn_img/artists/jBr3gybR1m/Br3gqB1ObR/size_xl_1645198831.webp"
+              alt="image" title="Jass Manak" />
+          </li>
+          <li>
+            <img src="https://i.iheart.com/v3/catalog/artist/416832?ops=fit(480%2C480)%2Crun(%22circle%22)"
+              alt="image" title="Badshah" />
+          </li>
+          <li>
+            <img src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNgP763B/size_xl_1595857138.webp"
+              alt="image" title="Tonny" />
+          </li>
+          <li>
+            <img src="https://i.pinimg.com/originals/0e/29/0d/0e290d7a3b9382471e138b1e9dc7eee9.jpg" alt="image"
+              title="Neha kakkar" />
+          </li>
+          <li>
+            <img
+              src="https://cdn.thewire.in/wp-content/uploads/2022/06/03133759/280256370_551769552982549_3701954392849400257_n.jpg"
+              alt="image" title="Sidho Musawala" />
+          </li>
+          <li>
+            <img src="https://photosfile.com/wp-content/uploads/2022/02/B-Praak-15.jpeg" alt="image"
+              title="B paark" />
+          </li>
+          <li>
+            <img src="https://photosfile.com/wp-content/uploads/2022/02/Yo-Yo-Honey-Singh-34.jpeg" alt="image"
+              title="Honey Singh" />
+          </li>
+          <li>
+            <img src="https://i.scdn.co/image/ab6761610000e5eb6403561cc5a2dcf800cc814a" alt="image"
+              title="Visahl mishra" />
+          </li>
+          <li>
+            <img src="https://wallpapercave.com/wp/wp8847968.jpg" alt="image" title="Jubin " />
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="master_play">
+      <div class="wave">
+        <div class="wave1"></div>
+        <div class="wave1"></div>
+        <div class="wave1"></div>
+      </div>
+      <img src="img/1.jpg" alt="Alan" id="poster_master_play"/>
+      <h5 id="title">
+        <div class="flex">
+          Aayat <br />
+          <div class="subtitle">Arijit singh</div>
+        </div>
+      </h5>
+      <div class="icon">
+        <i class="bi bi-skip-backward-fill" id="back"></i>
+        <i class="bi bi-play-fill" id="masterPlay" ></i>
+        <i class="bi bi-skip-forward-fill"id="next"></i>
+
+      </div>
+      <span id="currentStart">0:00</span>
+      <div class="bar">
+        <input type="range" id="seek" min="0" value="0" max="100" />
+        <div class="bar2" id="bar2"></div>
+        <div class="dot"></div>
+      </div>
+
+      <span id="currentEnd">0:00</span>
+
+      <div class="volume">
+        <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+        <input type="range" id="vol" min="0" value="30" max="100" />
+        <div class="vol_bar"></div>
+        <div class="dot" id="vol_dot"></div>
+      </div>
+    </div>
+  </header>
+  <script src="script.js"></script>
+</body>
+
+</html>
